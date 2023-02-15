@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{7E1F9790-C7D4-46C5-B50E-26979F902B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.Test", "WebAPI.Test\WebAPI.Test.csproj", "{237103C9-DF63-4A0A-81F6-7335EF33538D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIClient", "WebAPIClient\WebAPIClient.csproj", "{59FE638D-D30A-44F3-9711-594DEA35AD44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E1F9790-C7D4-46C5-B50E-26979F902B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1F9790-C7D4-46C5-B50E-26979F902B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1F9790-C7D4-46C5-B50E-26979F902B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1F9790-C7D4-46C5-B50E-26979F902B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237103C9-DF63-4A0A-81F6-7335EF33538D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237103C9-DF63-4A0A-81F6-7335EF33538D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237103C9-DF63-4A0A-81F6-7335EF33538D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237103C9-DF63-4A0A-81F6-7335EF33538D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59FE638D-D30A-44F3-9711-594DEA35AD44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59FE638D-D30A-44F3-9711-594DEA35AD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59FE638D-D30A-44F3-9711-594DEA35AD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59FE638D-D30A-44F3-9711-594DEA35AD44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0064A6F-2BE3-4590-9707-2371CB82619C}
+	EndGlobalSection
+EndGlobal
